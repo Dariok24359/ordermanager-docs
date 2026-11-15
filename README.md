@@ -1,7 +1,7 @@
-# A.Mail - Documentation
+# OrderManagerTool - Documentation
 
 ## Overview
-A.Mail is a private, desktop-based customer service application built in Python (Tkinter). It connects directly to the Allegro REST API via `device_code` authorization to fetch customer messages, discussions, and post-purchase disputes for internal seller account management.
+OrderManagerTool is a private, desktop-based customer service application built in Python (Tkinter). It connects directly to the Allegro REST API via `device_code` authorization to fetch customer messages, discussions, and post-purchase disputes for internal seller account management.
 
 ## Features
 - Secure OAuth2 authentication (`device_code` flow).
@@ -12,4 +12,5 @@ A.Mail is a private, desktop-based customer service application built in Python 
 The application strictly requests the following scopes for personal seller account operations:
 - `allegro:api:messaging`
 - `allegro:api:disputes`
+- `allegro:api:ratings`
 - `allegro:api:orders:read`
